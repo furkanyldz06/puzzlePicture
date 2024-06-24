@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>189847066831-rklba3l6kcob7141g2mac0v15f34mukk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.189847066831-rklba3l6kcob7141g2mac0v15f34mukk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA2vUeSBn4FMGyLiUC3uHDNW0MTzgZCoEk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>189847066831</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gitberry.hiddenmaster</string>
+	<key>PROJECT_ID</key>
+	<string>hidden-master-81a02</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hidden-master-81a02.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:189847066831:ios:6f97cdff68d3902d2bbfba</string>
+	<key>DATABASE_URL</key>
+	<string>https://hidden-master-81a02.firebaseio.com</string>
+</dict>
+</plist>
