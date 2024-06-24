@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189847066831",
+    "firebase_url": "https://hidden-master-81a02.firebaseio.com",
+    "project_id": "hidden-master-81a02",
+    "storage_bucket": "hidden-master-81a02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189847066831:android:fc7c5fbc7a6052382bbfba",
+        "android_client_info": {
+          "package_name": "com.gitberry.hiddenmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189847066831-uq3o6leseia1nh0kg5jc5b6k0kpqnj8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4py8qksba5YoWHFG3jb1RotIqcUgNH8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189847066831-uq3o6leseia1nh0kg5jc5b6k0kpqnj8e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "189847066831-rklba3l6kcob7141g2mac0v15f34mukk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gitberry.hiddenmaster"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

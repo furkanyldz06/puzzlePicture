@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52cce3a827d4453aad7022669df0834, type: 3}
+  m_Name: 10
+  m_EditorClassIdentifier: 
+  emojiPacks:
+  - firstSprite: {fileID: 21300000, guid: 8c0ed163f3a78425e83cc3f99bb2abc1, type: 3}
+    secondSprite: {fileID: 21300000, guid: ab0eec00e1ec944e98edb6588ec5c68d, type: 3}
+  - firstSprite: {fileID: 21300000, guid: 98f61293b40914b0fa23b2a4fd80e3ef, type: 3}
+    secondSprite: {fileID: 21300000, guid: 651bcd4271d8b4d98a01837499a15808, type: 3}
+  - firstSprite: {fileID: 21300000, guid: 473f0d14d1f5345ef99670860a5d965b, type: 3}
+    secondSprite: {fileID: 21300000, guid: 8a7d7c2d4340b4665867858ad46c90c7, type: 3}
+  - firstSprite: {fileID: 21300000, guid: 5fc4f582728734e03b36f8b4bc1a0da7, type: 3}
+    secondSprite: {fileID: 21300000, guid: cb090adac54e24979b14a128862ac348, type: 3}

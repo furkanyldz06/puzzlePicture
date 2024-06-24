@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: _Atlas2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e74b5039c4edc4d2ead920ccc666b35b, type: 3}
+    - {fileID: 2800000, guid: 78532a0a01f93465fb857740ef7eb371, type: 3}
+    - {fileID: 2800000, guid: 230f46d173ef24d4b99a1100f3faf54d, type: 3}
+    - {fileID: 2800000, guid: a8cbb1ce6e15f4d5e884f3607c1c2c27, type: 3}
+    - {fileID: 2800000, guid: ce1b18727946248c484febfb4c47cc39, type: 3}
+    - {fileID: 2800000, guid: a90b09dd972c7453b922e78398f820f0, type: 3}
+    - {fileID: 2800000, guid: b6334e71554d04baf8e52beb5f170eb7, type: 3}
+    - {fileID: 2800000, guid: 9ce4b14a42e07494bad36e7970517b80, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b6334e71554d04baf8e52beb5f170eb7, type: 3}
+  - {fileID: 21300000, guid: 230f46d173ef24d4b99a1100f3faf54d, type: 3}
+  - {fileID: 21300000, guid: ce1b18727946248c484febfb4c47cc39, type: 3}
+  - {fileID: 21300000, guid: e74b5039c4edc4d2ead920ccc666b35b, type: 3}
+  - {fileID: 21300000, guid: 78532a0a01f93465fb857740ef7eb371, type: 3}
+  - {fileID: 21300000, guid: 9ce4b14a42e07494bad36e7970517b80, type: 3}
+  - {fileID: 21300000, guid: a90b09dd972c7453b922e78398f820f0, type: 3}
+  - {fileID: 21300000, guid: a8cbb1ce6e15f4d5e884f3607c1c2c27, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ROOM_8
+  - ROOM_6
+  - ROOM_7
+  - ROOM_5_1 (4_adet)
+  - ROOM_5_1 (4_adet)-1
+  - ROOM_8_1 (6_adet)
+  - ROOM_7_1 (4_adet)
+  - ROOM_6_1 (6_adet)
+  m_RenderDataMap: {}
+  m_Tag: _Atlas2
+  m_IsVariant: 0

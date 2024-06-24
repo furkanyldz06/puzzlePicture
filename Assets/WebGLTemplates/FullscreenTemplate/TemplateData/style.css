@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#unity-container {
+  width: 100%;
+  height: 100%;
+}
+
+#unity-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.unity-mobile #unity-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#unity-loading-bar {
+  background: rgb(42, 34, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 34, 179, 1) 0%,
+    rgba(109, 109, 247, 1) 35%,
+    rgba(42, 34, 179, 1) 100%
+  );
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+}
+
+#unity-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  color: whitesmoke;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#unity-progress-bar-empty {
+  width: 35%;
+  height: 3%;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  background: url("progress-bar-empty-dark.png") no-repeat center;
+  background-size: cover;
+}
+
+#unity-progress-bar-full {
+  width: 0%;
+  height: 90%;
+  background: cyan;
+  border-radius: 8px;
+  margin: 1px;
+}
+
+#unity-footer {
+  position: relative;
+}
+
+.unity-mobile #unity-footer {
+  display: none;
+}
+
+#unity-build-title {
+  float: right;
+  margin-right: 10px;
+  line-height: 38px;
+  font-family: arial;
+  font-size: 18px;
+}
+
+#unity-fullscreen-button {
+  float: right;
+  width: 38px;
+  height: 38px;
+  background: url("fullscreen-button.png") no-repeat center;
+}
+
+#unity-mobile-warning {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+  background: white;
+  padding: 10px;
+  display: none;
+}

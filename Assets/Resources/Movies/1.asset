@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fc2c4d6dc46416eb2682a53a1069f2, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  levelIndex: 1
+  levelType: 1
+  firstSprite: {fileID: 21300000, guid: 047d350c2cf554dc7a355fd0071d68ce, type: 3}
+  secondSprite: {fileID: 21300000, guid: 6f05592d225f64f5999be5d7d0f5f3b7, type: 3}
+  objectDatas:
+  - objectID: -1
+    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
+    localPosition: {x: -317, y: 13, z: 0}
+    localScale: {x: 1.0599055, y: 1.0599055, z: 1.0599055}
+  - objectID: -1
+    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
+    localPosition: {x: -319, y: 178, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+  - objectID: -1
+    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
+    localPosition: {x: 22, y: 208, z: 0}
+    localScale: {x: 0.95469534, y: 0.95469534, z: 0.95469534}
+  - objectID: -1
+    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
+    localPosition: {x: -19, y: -217, z: 0}
+    localScale: {x: 0.88, y: 0.88, z: 0.88}
+  - objectID: -1
+    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
+    localPosition: {x: 466, y: -103, z: 0}
+    localScale: {x: 1, y: 1, z: 1}
+  - objectID: -1
+    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
+    localPosition: {x: 313, y: 86, z: 0}
+    localScale: {x: 0.9888644, y: 0.9888644, z: 0.9888644}
