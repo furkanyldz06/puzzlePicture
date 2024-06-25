@@ -20,24 +20,24 @@ MonoBehaviour:
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
     localPosition: {x: -244, y: -125, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
     localPosition: {x: -284, y: -45, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
     localPosition: {x: -237, y: 23, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
     localPosition: {x: -4, y: -51, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
     localPosition: {x: 429, y: -182, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
     localPosition: {x: 265, y: -35, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}

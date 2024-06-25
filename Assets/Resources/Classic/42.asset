@@ -19,25 +19,25 @@ MonoBehaviour:
   objectDatas:
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 146.2, y: 6.5, z: 0}
-    localScale: {x: 0.9428926, y: 0.9428926, z: 0.9428926}
+    localPosition: {x: -315, y: -64, z: 0}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 365, y: 118, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localPosition: {x: -96, y: 3, z: 0}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 219, y: -88, z: 0}
-    localScale: {x: 0.95469534, y: 0.95469534, z: 0.95469534}
+    localPosition: {x: -47, y: -113, z: 0}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 242, y: 32, z: 0}
-    localScale: {x: 0.88, y: 0.88, z: 0.88}
+    localPosition: {x: 462, y: 32, z: 0}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 384, y: -149, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
+    localPosition: {x: 336, y: 71, z: 0}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: -168, y: 88, z: 0}
-    localScale: {x: 0.84586, y: 0.84586, z: 0.84586}
+    localPosition: {x: 461, y: -78, z: 0}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
