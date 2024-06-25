@@ -15,7 +15,7 @@ MonoBehaviour:
   levelIndex: 32
   levelType: 1
   firstSprite: {fileID: 21300000, guid: 01a099a54d1df453ba8001a29866b46f, type: 3}
-  secondSprite: {fileID: 21300000, guid: 314aed6271cff45458d81b61a3defc0b, type: 3}
+  secondSprite: {fileID: 21300000, guid: 02a7940096fd840498dfba9fc2856c0e, type: 3}
   objectDatas:
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}

@@ -20,16 +20,16 @@ MonoBehaviour:
   - objectID: 0
     objectSprite: {fileID: 21300000, guid: f72b00fd8cb4049668f59b972e1cca9a, type: 3}
     localPosition: {x: -472, y: -36, z: 0}
-    localScale: {x: 1.1141, y: 1.1141, z: 1.1141}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: 1
     objectSprite: {fileID: 21300000, guid: 6ccc7bfa7cd724aaebc4c74f85ec3b2e, type: 3}
     localPosition: {x: -223, y: -270, z: 0}
-    localScale: {x: 1.3339, y: 1.3339, z: 1.3339}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: 2
     objectSprite: {fileID: 21300000, guid: d9f98cb1adf6c4f718b817adc3bf1647, type: 3}
     localPosition: {x: 400, y: -384, z: 0}
-    localScale: {x: 1.6453545, y: 1.6453545, z: 1.6453545}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: 3
     objectSprite: {fileID: 21300000, guid: 303251cea68d04388b0e19cbffd1be9d, type: 3}
     localPosition: {x: 77, y: -254, z: 0}
-    localScale: {x: 1.366, y: 1.366, z: 1.366}
+    localScale: {x: 1.5, y: 1.5, z: 1.5}

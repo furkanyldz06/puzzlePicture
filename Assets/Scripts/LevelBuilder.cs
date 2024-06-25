@@ -77,6 +77,7 @@ public class LevelBuilder : MonoBehaviour
             inputManager.SetCurrentImages(new List<RectTransform> { firstImageType2.GetComponent<RectTransform>(), secondImageType2.GetComponent<RectTransform>() });
             firstImageType2.sprite = levelData.firstSprite;
             secondImageType2.sprite = levelData.secondSprite;
+            //burası
         }
     }
 
