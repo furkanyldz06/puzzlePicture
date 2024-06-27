@@ -65,12 +65,14 @@ public class GameUIController : MonoBehaviour
 
     public void SetLevelIndex(int levelIndex)
     {
+        levelIndexText.text = "Level " + levelIndex;
         // levelIndexText.text = LeanLocalization.GetTranslationText("Level").Replace("*", levelIndex.ToString());
         // winPanelLevelIndexText.text= LeanLocalization.GetTranslationText("Level").Replace("*", levelIndex.ToString());
     }
 
     public void SetLevelIndex()
     {
+        print("LEVELINDEXXX : " + levelIndexText);
         levelIndexText.text = "";// LeanLocalization.GetTranslationText("Mixed", "MIXED");
         winPanelLevelIndexText.text = "";// LeanLocalization.GetTranslationText("Mixed", "MIXED");
     }

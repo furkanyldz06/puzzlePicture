@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelIndex: 36
   levelType: 1
-  firstSprite: {fileID: 21300000, guid: 23877c773cca14cb89f9f8d4d9bc3df6, type: 3}
+  firstSprite: {fileID: 21300000, guid: 8c9bd8b7dd4564428bb6230a9c07648f, type: 3}
   secondSprite: {fileID: 21300000, guid: 853dceba2eeec4629b23a02ac5acac1c, type: 3}
   objectDatas:
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: -276, y: -137, z: 0}
+    localPosition: {x: -197, y: -161, z: 0}
     localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}

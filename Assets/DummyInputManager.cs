@@ -53,6 +53,8 @@ public class DummyInputManager : Singleton<DummyInputManager>
     bool setPivot;
     void Update()
     {
+        return;
+        
         if (!isActive)
         {
             return;
@@ -105,6 +107,7 @@ public class DummyInputManager : Singleton<DummyInputManager>
 
     public void PosSync(int index)
     {
+        return;
         Vector3 pos = new Vector3();
 
         pos= activeImages[index].transform.localPosition;
@@ -124,6 +127,7 @@ public class DummyInputManager : Singleton<DummyInputManager>
 
     public void ResetZoom()
     {
+        return;
         for (int i = 0; i < activeImages.Count; i++)
         {
             activeImages[i].transform.localScale = Vector3.one;
@@ -132,6 +136,7 @@ public class DummyInputManager : Singleton<DummyInputManager>
 
     private void Zoom()
     {
+        return;
         Touch touchZero = Input.GetTouch(0);
         Touch touchOne = Input.GetTouch(1);
 

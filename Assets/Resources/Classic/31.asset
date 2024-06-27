@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelIndex: 31
   levelType: 1
-  firstSprite: {fileID: 21300000, guid: 9a6a1eb7fb9724583b00c11f762c9893, type: 3}
+  firstSprite: {fileID: 21300000, guid: 476e6fad573964d69a8b337281dc0d92, type: 3}
   secondSprite: {fileID: 21300000, guid: 47654c16e1ad74872b87575e3ed1dbf9, type: 3}
   objectDatas:
   - objectID: -1

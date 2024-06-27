@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelIndex: 3
   levelType: 1
-  firstSprite: {fileID: 21300000, guid: 7679eba0939884cb19292a39f7fe46ed, type: 3}
+  firstSprite: {fileID: 21300000, guid: cb8774a53f1184e4fba9f5b189d18ae7, type: 3}
   secondSprite: {fileID: 21300000, guid: b6621ba8a35204b80a9412d121502df9, type: 3}
   objectDatas:
   - objectID: -1
@@ -35,7 +35,7 @@ MonoBehaviour:
     localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 331, y: 196, z: 0}
+    localPosition: {x: 331, y: 65, z: 0}
     localScale: {x: 1.5, y: 1.5, z: 1.5}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
