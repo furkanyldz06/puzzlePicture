@@ -19,7 +19,11 @@ public class Hint : MonoBehaviour
     }
 
  
-    public void Check() {
+    public void Check() 
+    {
+        if(PlayerPrefs.GetInt("Zoom") == 1)
+            return;
+        
         if (!wasFound) {
             bool isActive = HintIndicator.Find(this);
             if (isActive)

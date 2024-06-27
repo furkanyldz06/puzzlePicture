@@ -236,6 +236,24 @@ public class GameManager : Singleton<GameManager>
         
     }
 
+    [SerializeField] private Animator zoomZoom;
+    public void getZoom()
+    {
+        if (PlayerPrefs.GetInt("Zoom") == 0)
+        {
+            PlayerPrefs.SetInt("Zoom", 1);
+            zoomZoom.SetTrigger("ZoomIn");
+        }
+        
+        else getZoomOut();
+    }
+    
+    public void getZoomOut()
+    {
+        PlayerPrefs.SetInt("Zoom", 0);
+        zoomZoom.SetTrigger("ZoomOut");
+    }
+    
     public void CheckHintState()
     {
         if (hintCount > 0)
@@ -411,6 +429,9 @@ public class GameManager : Singleton<GameManager>
 
     public void MissClick()
     {
+        if(PlayerPrefs.GetInt("Zoom") == 1)
+            return;
+        
         if (gameMode == GameMode.Active && !isEmojiLevel)
         {
             timer = Mathf.Max(0f, timer - 30f);

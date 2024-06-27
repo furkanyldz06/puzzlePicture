@@ -1,9 +1,12 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
 
 public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 { 
     RectTransform rectTransform; // Assign this through the inspector
+    [SerializeField] RectTransform rectTransform2;
     private float scaleFactor = 1.75f;
     private Vector3 originalScale;
     private Vector2 originalPosition;
@@ -20,6 +23,11 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        if(PlayerPrefs.GetInt("Zoom") == 0) 
+            return;
+        
+        StartCoroutine(interactable(0,false));
+
         // Calculate the offset between the mouse position and the rectTransform's position
         RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out clickOffset);
         
@@ -38,16 +46,17 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         // Adjust the anchored position based on the pivot position
         rectTransform.anchoredPosition = eventData.position - pivotPosition;
         
+        rectTransform2.anchoredPosition = eventData.position - pivotPosition;
+
         // Increase the scale
         rectTransform.localScale = originalScale * scaleFactor;
+        rectTransform2.localScale = originalScale * scaleFactor;
+
         
         isDragging = true;
         
-        
-        
-        
-        
-        
+
+
         // RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, eventData.position, eventData.pressEventCamera, out clickOffset);
         //
         // // Adjust the pivot to the click position
@@ -71,6 +80,7 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
             Vector2 localPoint;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform.parent as RectTransform, eventData.position, eventData.pressEventCamera, out localPoint);
             rectTransform.anchoredPosition = localPoint - clickOffset;
+            rectTransform2.anchoredPosition = localPoint - clickOffset;
         }
     }
 
@@ -79,7 +89,26 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         // Return to the original scale and position
         rectTransform.localScale = originalScale;
         rectTransform.anchoredPosition = originalPosition;
+        
+        rectTransform2.localScale = originalScale;
+        rectTransform2.anchoredPosition = originalPosition;
+        
+        StartCoroutine(interactable(0.01f,true));
 
         isDragging = false;
+    }
+
+    IEnumerator interactable(float sec, bool val)
+    {
+        yield return new WaitForSeconds(sec);
+        
+        GetComponent<UnityEngine.UI.Button>().interactable = val;
+
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).GetComponent<UnityEngine.UI.Button>().interactable = val;
+        }
+        if(val == true)
+            GameManager.instance.getZoomOut();
     }
 }
