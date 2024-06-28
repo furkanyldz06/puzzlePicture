@@ -23,6 +23,8 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        print("SSSSSDSADS");
+        
         if(PlayerPrefs.GetInt("Zoom") == 0) 
             return;
         
@@ -86,7 +88,14 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        // Return to the original scale and position
+        imageBack();
+    }
+
+    public void imageBack()
+    {
+        if(PlayerPrefs.GetInt("Zoom") == 0)
+            return;
+        
         rectTransform.localScale = originalScale;
         rectTransform.anchoredPosition = originalPosition;
         
@@ -98,7 +107,7 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         isDragging = false;
     }
 
-    IEnumerator interactable(float sec, bool val)
+    public IEnumerator interactable(float sec, bool val)
     {
         yield return new WaitForSeconds(sec);
         
@@ -106,7 +115,7 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
         for (int i = 0; i < transform.childCount; i++)
         {
-            transform.GetChild(i).GetComponent<UnityEngine.UI.Button>().interactable = val;
+            transform.GetChild(i).GetComponent<UnityEngine.UI.Image>().enabled = val;
         }
         if(val == true)
             GameManager.instance.getZoomOut();

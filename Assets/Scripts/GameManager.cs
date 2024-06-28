@@ -204,8 +204,23 @@ public class GameManager : Singleton<GameManager>
         CheckHintState();
     }
 
+    public DragAndScale DragAndScale1, DragAndScale2;
+
+    public void getBackZoomHint()
+    {
+        DragAndScale1.imageBack();
+        DragAndScale2.imageBack();
+    }
+
+    public void hitClick()
+    {
+        getBackZoomHint();
+    }
+
     public void GetHint()
     {
+        
+        
         TapticManager.Impact(ImpactFeedback.Light);
         if (hintCount > 0)
         {
