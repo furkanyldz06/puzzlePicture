@@ -68,10 +68,10 @@ public class GameManager : Singleton<GameManager>
                     selectedGameMode = "Classic";
                     break;
                 case 1:
-                    selectedGameMode = "Movies";
+                    selectedGameMode = "Jobs";
                     break;
                 case 2:
-                    selectedGameMode = "Cultures";
+                    selectedGameMode = "Sports";
                     break;
             }
         }
@@ -81,10 +81,10 @@ public class GameManager : Singleton<GameManager>
             case "Classic":
                 levelCount = 51;
                 break;
-            case  "Movies":
+            case  "Jobs":
                 levelCount = 30;
                 break;
-            case "Cultures":
+            case "Sports":
                 levelCount = 20;
                 break;
 
