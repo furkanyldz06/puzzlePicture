@@ -12,6 +12,8 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     private Vector2 originalPosition;
     private bool isDragging = false;
     private Vector2 clickOffset;
+    public Transform type1;
+    public Transform other;
 
     void Start()
     {
@@ -113,11 +115,28 @@ public class DragAndScale : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         
         GetComponent<UnityEngine.UI.Button>().interactable = val;
 
+        if (other)
+        {
+            other.GetComponent<UnityEngine.UI.Button>().interactable = val;
+        }
+
+        if (type1)
+        {
+            type1.GetComponent<UnityEngine.UI.Button>().interactable = val;
+        }
+
         for (int i = 0; i < transform.childCount; i++)
         {
             transform.GetChild(i).GetComponent<UnityEngine.UI.Image>().enabled = val;
+            
+            if(other != null)
+                other.GetChild(i).GetComponent<UnityEngine.UI.Image>().enabled = val;
+            
+            if(type1 != null && type1.childCount > 0 && type1.GetChild(i) != null)
+                type1.GetChild(i).GetComponent<UnityEngine.UI.Image>().enabled = val;
         }
-        if(val == true)
+        
+        if(val)
             GameManager.instance.getZoomOut();
     }
 }

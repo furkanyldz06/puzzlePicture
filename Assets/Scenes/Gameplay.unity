@@ -15169,6 +15169,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rectTransform2: {fileID: 1660393284}
+  type1: {fileID: 916633099}
+  other: {fileID: 1660393284}
 --- !u!1 &904159497
 GameObject:
   m_ObjectHideFlags: 0
@@ -15486,6 +15488,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rectTransform2: {fileID: 903629177}
+  type1: {fileID: 0}
+  other: {fileID: 0}
 --- !u!1 &933760680
 GameObject:
   m_ObjectHideFlags: 0
@@ -34207,6 +34211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rectTransform2: {fileID: 903629177}
+  type1: {fileID: 916633099}
+  other: {fileID: 903629177}
 --- !u!1 &1662546285
 GameObject:
   m_ObjectHideFlags: 0
