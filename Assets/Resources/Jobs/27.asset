@@ -14,26 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelIndex: 27
   levelType: 1
-  firstSprite: {fileID: 21300000, guid: d58b54fb926654362bdaee288ddf54a2, type: 3}
-  secondSprite: {fileID: 21300000, guid: 5b799dc2762324710ac2dc1d5cf831ef, type: 3}
+  firstSprite: {fileID: 21300000, guid: bb348a49ee5424c4daefe4d45b3f83f4, type: 3}
+  secondSprite: {fileID: 21300000, guid: b1fd9efc7325b496b917466660a1b24d, type: 3}
   objectDatas:
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 100, y: 9, z: 0}
+    localPosition: {x: -496, y: -139, z: 0}
     localScale: {x: 1.0599055, y: 1.0599055, z: 1.0599055}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: -176, y: 85, z: 0}
+    localPosition: {x: -71, y: 97, z: 0}
     localScale: {x: 1.0597118, y: 1.0597118, z: 1.0597118}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: -60, y: -128, z: 0}
+    localPosition: {x: 190, y: -173, z: 0}
     localScale: {x: 1.113728, y: 1.113728, z: 1.113728}
   - objectID: -1
     objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: -111, y: 51, z: 0}
-    localScale: {x: 1, y: 1, z: 1}
-  - objectID: -1
-    objectSprite: {fileID: 21300000, guid: 98b4a01a5133341e0b1ce7a5f20a04e1, type: 3}
-    localPosition: {x: 232, y: 7, z: 0}
+    localPosition: {x: 145, y: 229, z: 0}
     localScale: {x: 1, y: 1, z: 1}
